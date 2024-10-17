@@ -20,7 +20,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 			api.sendMessage(msg, threadID, messageID);
 		};
 
-	if (event.body.indexOf("@Misty Islam")==0 || (event.body.indexOf("Misty Islam")==0 || (event.body.indexOf("Misty")==0 || (event.body.indexOf("misty")==0)))) {
+	if (event.body.indexOf("@Misty Islam")==0 || (event.body.indexOf("@Misty Islam")==0 || (event.body.indexOf("Misty")==0 || (event.body.indexOf("misty")==0)))) {
 		var msg = {
 				body: "কেউ নজর দিবানা মিষ্টি ভাবি শুধু নিয়াজ বসের🤭 "
     }
