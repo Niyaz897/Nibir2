@@ -19,6 +19,12 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     }
 			api.sendMessage(msg, threadID, messageID);
 		};
+	if (event.body.indexOf("@Imrose Muskan")==0 || (event.body.indexOf("@Imrose Muskan")==0 || (event.body.indexOf("@Imrose Muskan")==0 || (event.body.indexOf("@Imrose Muskan")==0)))) {
+		var msg = {
+				body: "কেউ ডাকবি না মুসকাব ভাবি কবি ভাইয়ের চিপায় বিজি"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		};
 
 	if (event.body.indexOf("@Misty Islam")==0 || (event.body.indexOf("@Misty Islam")==0 || (event.body.indexOf("Misty")==0 || (event.body.indexOf("misty")==0)))) {
 		var msg = {
