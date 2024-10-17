@@ -16,10 +16,10 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
-	if (body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("😒")==0) {
+	if (body.indexOf("Niyaz Id ")==0 || body.indexOf("Boss id ")==0 || body.indexOf("niyaz id")==0 || body.indexOf("😒")==0) {
 		var msg = {
-				body: "এঁভাঁবেঁ তাঁকাঁসঁ নাঁ প্রেঁমেঁ পঁরেঁ যাঁবোঁ 😚🥀",
-				attachment: fs.createReadStream(__dirname + `/Nayan/Mayabi.mp3`)
+				body: "Niyaz Boss ar Id 👇",
+				attachment: fs.createReadStream(__dirname + `/Nayan/Niyazp.png`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("😁", event.messageID, (err) => {}, true)
