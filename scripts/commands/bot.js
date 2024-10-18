@@ -27,7 +27,7 @@ module.exports.run = async function({ api, event, args, Users }) {
     
     try {
         if (!query) {
-            return api.sendMessage(`👤‚『${name}』,\n\n💌${rand}\n\n`, event.threadID, event.messageID);
+            return api.sendMessage(`👤‚『${name}』,\n💌${rand}\n\n`, event.threadID, event.messageID);
         }
         
         const encodedQuery = encodeURIComponent(query);
