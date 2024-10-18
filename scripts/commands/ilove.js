@@ -19,7 +19,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     }
 			api.sendMessage(msg, threadID, messageID);
 		};
-	if (event.body.indexOf("@Imrose Muskan")==0 || (event.body.indexOf("@Imrose Muskan")==0 || (event.body.indexOf("@Imrose Muskan")==0 || (event.body.indexOf("@Imrose Muskan")==0)))) {
+	if (event.body.indexOf("@Imrose /Muskan")==0 || (event.body.indexOf("@Imrose /Muskan")==0 || (event.body.indexOf("@Imrose /Muskan")==0 || (event.body.indexOf("@Imrose /Muskan")==0)))) {
 		var msg = {
 				body: "কেউ নজর দিবা না মুসকান ভাবি শুধু নিয়াজ বসের বউ 🥰"
     }
