@@ -1,13 +1,13 @@
 module.exports.config = {
-    name: "bot",
-    version: "1.0.2",
-    permission: 0,
-    prefix: 'awto',
-    credits: "Emon",
-    description: "ai",
-    category: "botAi",
-    usages: "bot+bot Help", 
-    cooldowns: 5,
+  name: "bot",
+  version: "0.0.4",
+  permission: 0,
+  prefix: false,
+  credits: "Nayan",
+  description: "talk with bot",
+  category: "user",
+  usages: "",
+  cooldowns: 5,
 };
 
 module.exports.run = async function({ api, event, args, Users }) {
