@@ -8,7 +8,7 @@
   "approval": false,
   "saveState": true,
   "BOTNAME": "🍫দুধ Candy🍫",
-  "PREFIX": "/",
+  "PREFIX": ".",
   "OPERATOR": [
     "100075317974618",
     "61561088242971",
